@@ -1,0 +1,57 @@
+#welcomeIcon{
+	animation-name: fadeIn;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+#welcomeSlide1{
+	animation-name: slideIn1;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+}
+#welcomeSlide2{
+	animation-name: slideIn2;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+}
+#welcomeSlide3{
+	animation-name: slideIn3;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;	
+}
+#welcomeSlide4{
+	animation-name: slideIn4;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;	
+}
+
+@keyframes fadeIn{
+	0%{opacity:0;}
+	100%{opacity: 1;}
+}
+@keyframes slideIn1{
+	0%{transform:translateX(-1000px);}
+	45%{transform:translateX(11px);}
+	53%{transform:translateX(0px);}
+	100%{transform:translateX(0px);}
+}
+@keyframes slideIn2{
+	0%{transform:translateX(-1000px);}
+	10%{transform:translateX(-1000px);}
+	55%{transform:translateX(19px);}
+	63%{transform:translateX(0px);}
+	100%{transform:translateX(0px);}
+}
+@keyframes slideIn3{
+	0%{transform:translateX(-1000px);}
+	24%{transform:translateX(-1000px);}
+	65%{transform:translateX(12px);}
+	73%{transform:translateX(0px);}
+	100%{transform:translateX(0px);}
+}
+@keyframes slideIn4{
+	0%{transform:translateX(-1000px);}
+	30%{transform:translateX(-1000px);}
+	70%{transform:translateX(25px);}
+	86%{transform:translateX(0px);}
+	100%{transform:translateX(0px);}
+}

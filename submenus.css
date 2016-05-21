@@ -1,0 +1,52 @@
+#overlay{
+	background: black;
+	color:white;
+	font-size:6.5vh;
+	height:100%;
+	position:absolute;
+	text-align: center;
+	width:100%;
+	z-index: 15;
+}
+#resultText1{
+	height:10%;
+	margin-top:16vh;
+	width:100%;
+}
+#resultOutput{
+	font-size:7.5vh;
+	font-weight:500;
+	height:11%;
+}
+#resultText2{
+	height:25%;
+}
+#percentCorrect{
+}
+.colorRed{
+	color:red;
+}
+.colorGreen{
+	color:green;
+}
+#continue{
+	background: white;
+	border-radius: 3px;
+	bottom:10%;
+	color:black;
+	font-size:8vh;
+	height:10%;
+	margin-left:15%;
+	opacity: .5;
+	position:absolute;
+	width:70%;
+}
+.correct{
+	color:green;
+}
+.incorrect{
+	color:red;
+}
+.resultText{
+
+}

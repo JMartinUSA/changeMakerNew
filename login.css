@@ -1,0 +1,78 @@
+/*#loginContainer{
+	color:white;
+	height:100vh;
+	position: absolute;
+	width:100vw;
+	z-index: 100;
+}*/
+#loginCover{
+	background:black;
+	height:100vh;
+	opacity: .7;
+	position:absolute;
+	z-index: 99;
+	width:100vw;
+}
+#loginArea{
+	background: black;
+	box-sizing:border-box;
+	border:1px solid white;
+	color:white;
+	margin-top: 30vh;
+	margin-left: 15vw;
+	padding:10px;
+	position:absolute;
+	text-align: center;
+	width:70vw;
+	z-index: 100;
+}
+#loginHeader{
+	font-size: 4vh;
+	height:5vh;
+	width:100%;
+}
+#loginTab, #registerTab{
+	border: 1px solid white;
+	float:left;
+	width:50%;
+}
+#loginTab{
+	background: white;
+	color:black;
+}
+#loginSection{
+	width:100%;
+}
+#registerSection{
+	display:none;
+	width:100%;
+}
+.loginSpacer{
+	width:100%;
+}
+#loginArea input{
+	height:20px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width:70%;
+}
+#errorMsg, #errorMsgLogin{
+	color:red;
+	/*padding:5px;*/
+}
+#confirmMsg{
+	color: green;
+	/*padding:5px;*/
+}
+#loginContinue, #registerContinue{
+	border:1px solid white;
+	display:inline-block;
+	font-size: 4vh;
+	height:5vh;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}

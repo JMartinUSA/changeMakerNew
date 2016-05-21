@@ -1,0 +1,25 @@
+#stats{
+	background:black;
+	font-size: 4vh;
+	height:100%;
+	position:absolute;
+	width:100%;
+	z-index: 22;
+}
+#statText{
+	color: white;
+	text-align: center;
+}
+#backButton{
+	background: white;
+	border-radius: 3px;
+	color:black;
+	font-size: 6vh;
+	height:8%;
+	left:25%;
+	opacity: .5;
+	position:absolute;
+	text-align: center;
+	top:85%;
+	width:50%;
+}

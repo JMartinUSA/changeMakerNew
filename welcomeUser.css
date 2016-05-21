@@ -1,0 +1,28 @@
+#roundContainer{
+	background:rgba(120,120,120,.0);
+	left:0px;
+	position:absolute;
+	right:0px;
+	text-align: center;
+	top:-200px;
+	z-index:100;
+	animation-name:WelcomeUser;
+	animation-duration:5s;
+}
+#round{
+	background:rgba(255,255,255,.7);
+	border:rgba(255,255,255,.);
+	border-radius: 100px;
+	color:black;
+	display:inline-block;
+	font-size: 4vh;
+	padding:5px;
+	margin-top:25px;
+	margin-bottom:25px;
+}
+@keyframes WelcomeUser{
+	0%{top:-100px;}
+	17%{top:0px;}
+	83%{top:0px;}
+	100%{top:-100px;}
+}

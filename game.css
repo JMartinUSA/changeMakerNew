@@ -1,0 +1,142 @@
+
+#container{
+	bottom:0px;
+	left:0px;
+	position: absolute;
+	right:0px;
+	top: 0px;
+}
+#gameContainer{
+	height:100%;
+	width:100%;
+}
+#top{
+	color:white;
+	font-size: 4vh;
+	height:45%;
+	text-align: center;
+	width:100%;
+}
+#totalSpacer{
+	height:10%;
+	width:100%;
+}
+#total{
+	height:40%;
+	width:100%;
+}
+
+#received{
+	height:25%;
+	width: 100%;
+}
+
+
+#bottom{
+	height:35%;
+	width:100%;
+}
+#bills{
+	height:68%;
+	width:100%;
+}
+.bills{
+	float:left;
+	height:100%;
+	position:relative;
+	width:25%;
+}
+#moneySpacer{
+	height:2%;
+	width:100%;
+}
+#change{
+	height:30%;
+	width:100%;
+}
+.change{
+	float:left;
+	height:100%;
+	position:relative;
+	width:25%;
+}
+.img{
+	margin-left:auto;
+	margin-right:auto;
+	height:100%;
+}
+img{
+	display:block;
+	margin:0;
+	margin-left:auto;
+	margin-right:auto;
+	max-height:100%;
+	max-width:100%;
+}
+.arrowUp, .arrowDown{
+	background:white;
+	border-radius:5px;
+	height:4vh;
+	margin-left:3%;
+	opacity:0.3;
+	position:absolute;
+	width:94%;
+	z-index:5;
+}
+.arrowUpImg, .arrowDownImg{
+	border-left:12px solid transparent;
+	border-right:12px solid transparent;
+	height:0px;
+	margin:auto;
+	position:relative;
+	top:20%;
+	width:0px;
+}
+.arrowUp{
+	top:0px;
+}
+.arrowUpImg{
+	border-bottom:12px solid black;
+}
+.arrowDown{
+	bottom:0px;
+}
+.arrowDownImg{
+	border-top:12px solid black;
+}
+.amount{
+	background:rgba(255,255,255,.2);
+	border-radius:20%;
+	color:rgba(0,0,0,.7);
+	font-size:8vh;
+	left:25%;
+	position:relative;
+	text-align:center;
+	top:-65%;
+	width:50%;
+	z-index:1;
+}
+.amountChange{
+	color:rgba(0,0,0,.9);
+	font-size:5vh;
+	margin-left:10%;
+	top:-75%;
+	width:30%;
+}
+#submit{
+	height:20%;
+	text-align:center;
+	width:100%;
+}
+#buttonSpacer{
+	height:25%;
+}
+#buttonSubmit{
+	background:rgba(255,255,255,.43);
+	border-radius:7px;
+	font-size:8vh;
+	height:50%;
+	margin-left:auto;
+	margin-right:auto;
+	width:70%;
+}

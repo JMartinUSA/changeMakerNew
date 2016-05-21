@@ -1,0 +1,39 @@
+#transparentCover{
+	background:black;
+	height:100%;
+	opacity: .8;
+	position: absolute;
+	width:100%;
+	z-index: 20;
+}
+.menuButton{
+	color:rgba(255,255,255,0.7);
+	border:1px solid rgba(255,255,255,0.7);
+	font-size:6vh;
+	height:7.5%;
+	border-radius: 2px;
+	margin-left:25%;
+	position: absolute;
+	text-align: center;
+	background: rgba(0,0,0,.9);
+	width:50%;
+	z-index: 22;
+}
+#menuButton0{
+	top:20%;
+}
+#menuButton1{
+	top:40%;
+}
+#menuButton2{
+	top:60%;
+}
+#menuButton3{
+	top:80%;
+}
+#menu{
+	height:100%;
+	position: absolute;
+	width:100%;
+	z-index: 21;
+}

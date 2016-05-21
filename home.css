@@ -1,0 +1,24 @@
+#container{
+	background:black;
+}
+#welcomeIcon{ 
+	margin-left:15%;
+	margin-top:10%;
+	position: relative;
+}
+img{
+	height:70vw;
+}
+.button{
+	background:rgba(255,255,255,0.6);
+	border-radius: 2px;
+	font-size:5vh;
+	height:6vh;
+	margin-left:25%;
+	margin-top:-4%;
+	opacity:.7;
+	position: relative;
+	text-align: center;
+	width:50%;
+	color: rgba(0,0,0,1);
+}
