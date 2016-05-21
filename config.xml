@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "fibonacci.game.app"
-        versionCode = "20" 
-        version     = "2.0.0" >
+        id          = "changemaker.game.app"
+        versionCode = "10" 
+        version     = "1.0.0" >
         
-        <name>Fibonacci Clean</name>
+        <name>ChangeMaker</name></name>
         
         <description>
-          A cool, simple, elegant clock.
+          A cool, simple, way to practice making change.
         </description>
         
         
